@@ -1,0 +1,15 @@
+name: BeaconFly
+version: '${project.version}'
+main: beaconfly.beaconfly.BeaconFly
+api-version: 1.18
+prefix: BeaconFly
+description: Allows flight while in range of a max tier beacon while wearing elytra
+commands:
+  bfly:
+    description: Allows flight while in range of a max tier beacon while wearing elytra
+    usage: /bfly
+    aliases: [ bf ]
+    permission: beaconfly.use
+    permission-message: You do not have permission to use this command.
+
+

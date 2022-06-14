@@ -1,0 +1,6 @@
+CancelFlySlowfall: false
+SlowfallDuration: 5
+CancelFlyBlockNextFall: true
+BlockNextFallDuration: 5.0
+Beacons: {}
+Players: {}
