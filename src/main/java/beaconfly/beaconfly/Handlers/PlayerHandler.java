@@ -79,7 +79,7 @@ public class PlayerHandler implements Listener {
                 }
             }
         }
-        else{
+        else if (event.getPlayer().getGameMode().equals(GameMode.SURVIVAL) || event.getPlayer().getGameMode().equals(GameMode.ADVENTURE)){
             disableFlight(event.getPlayer());
         }
     }
